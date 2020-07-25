@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ronymayukh.weapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <activity android:name=".ViewFriendProfile"></activity>
+        <activity android:name=".AddFriend"></activity>
+        <activity android:name=".Contact" />
+        <activity android:name=".ViewOwnProfile" />
+        <activity android:name=".SetupProfile" />
+        <activity android:name=".ChatList">
+
+        </activity>
+        <activity android:name=".PhoneNumberVerification" />
+        <activity android:name=".Signup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

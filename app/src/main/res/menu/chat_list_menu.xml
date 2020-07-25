@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/friendMenu"
+        android:icon="@drawable/friend"
+        android:title="Friends"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/addFriendMenu"
+        android:icon="@drawable/add_friend"
+        android:title="Add Friends"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/updateProfileMenu"
+        android:icon="@drawable/update_profile"
+        android:title="Update Profile"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/update_profile"
+        android:title="Log Out"
+        app:showAsAction="never"/>
+</menu>
