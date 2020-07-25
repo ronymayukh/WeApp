@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1088202530126",
+    "firebase_url": "https://weapp-a6c48.firebaseio.com",
+    "project_id": "weapp-a6c48",
+    "storage_bucket": "weapp-a6c48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088202530126:android:c66ebf2940ffac9184921f",
+        "android_client_info": {
+          "package_name": "com.ronymayukh.weapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088202530126-47jsalaajhf89amkem01vub1qht2fir2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ronymayukh.weapp",
+            "certificate_hash": "aca8cf750b48216e90fa88c383f680c420a1676c"
+          }
+        },
+        {
+          "client_id": "1088202530126-9hparg9h8dhhd1trb8kvo1tsr8c4a12i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD188HH9wEQu4VH-SlZiLvGJgyc3cLioKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088202530126-9hparg9h8dhhd1trb8kvo1tsr8c4a12i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
